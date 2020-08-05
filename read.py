@@ -22,6 +22,3 @@ for i in range(0,lim_x,comp):
     finish += '\n'
 
 print(finish)
-
-pil_img = Image.fromarray(im)
-pil_img.save('newpic.png')
